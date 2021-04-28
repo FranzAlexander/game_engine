@@ -1,0 +1,10 @@
+[package]
+name = "game_engine"
+version = "0.1.0"
+authors = ["alexb"]
+edition = "2018"
+
+
+[dependencies]
+game_platform = { package = "game_platform", path = "game_platform"}
+
