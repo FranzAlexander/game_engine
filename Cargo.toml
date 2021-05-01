@@ -7,4 +7,4 @@ edition = "2018"
 
 [dependencies]
 game_platform = { package = "game_platform", path = "game_platform"}
-
+game_core = {package = "game_core", path = "game_core"}
