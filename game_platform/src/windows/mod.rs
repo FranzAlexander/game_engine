@@ -26,7 +26,7 @@ impl Window {
             debug_assert!(instance.0 != 0);
 
             let wc = WNDCLASSA {
-                hCursor: LoadCursorW(None, IDC_HAND),
+                hCursor: LoadCursorW(None, IDC_ARROW),
                 hInstance: instance,
                 lpszClassName: PSTR(b"window\0".as_ptr() as _),
                 style: WNDCLASS_STYLES::CS_HREDRAW | WNDCLASS_STYLES::CS_VREDRAW,

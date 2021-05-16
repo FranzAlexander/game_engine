@@ -30,6 +30,6 @@ macro_rules! impl_vector {
     };
 }
 
-impl_vector!(Vector1 { x }, new);
-impl_vector!(Vector2 { x, y }, new);
-impl_vector!(Vector3 { x, y, z }, new);
+impl_vector!(Vector1 { x }, vec1);
+impl_vector!(Vector2 { x, y }, vec2);
+impl_vector!(Vector3 { x, y, z }, vec3);
